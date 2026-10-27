@@ -38,3 +38,12 @@ C:\Users\fokou\AppData\Local\Programs\IntelliJ IDEA\plugins\maven-plugin\lib\mav
 [INFO] Total time:  2.091 s
 [INFO] Finished at: 2026-10-27T11:20:51+01:00
 [INFO] ------------------------------------------------------------------------
+
+5-Indice — <code>parNom</code> sans exception
+
+  <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.12.2</version>
+      <scope>test</scope>
+    </dependency>
