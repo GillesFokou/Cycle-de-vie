@@ -63,8 +63,6 @@
   </dependencyManagement>
 
   <dependencies>
-    <!-- ══ Chapitre 1 — JDBC ═════════════════════════════════════════════════ -->
-
     <!-- Le pilote. L'API JDBC elle-même est dans le JDK : rien à déclarer pour elle.
          C'est TOUTE la démonstration du chapitre 1 sur « API vs implémentation ». -->
     <dependency>
@@ -93,8 +91,6 @@
       <version>${logback.version}</version>
     </dependency>
 
-    <!-- ══ Chapitre 2 — JPA / Hibernate ══════════════════════════════════════ -->
-
     <!-- Hibernate ORM. Il apporte jakarta.persistence-api en transitif : on ne
          déclare donc pas l'API séparément (une seule source de vérité de version). -->
     <dependency>
@@ -110,8 +106,6 @@
       <artifactId>hibernate-hikaricp</artifactId>
       <version>${hibernate.version}</version>
     </dependency>
-
-    <!-- ══ Chapitre 4 — tests & migrations ═══════════════════════════════════ -->
 
     <dependency>
       <groupId>org.flywaydb</groupId>
