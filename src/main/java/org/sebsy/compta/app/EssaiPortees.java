@@ -3,10 +3,6 @@ package org.sebsy.compta.app;
 import org.sebsy.compta.domain.Fournisseur;
 import org.sebsy.compta.infra.Jpa;
 
-/**
- * TP 05, questions 10 and 11: the persistence context is a cache scoped to one
- * EntityManager, hence to one transaction here.
- */
 public final class EssaiPortees {
 
     public static void main(String[] args) {
