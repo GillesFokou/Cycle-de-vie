@@ -8,10 +8,6 @@ import org.sebsy.compta.domain.Fournisseur;
 import org.hibernate.SessionFactory;
 import org.hibernate.stat.Statistics;
 
-/**
- * The application's single {@code EntityManagerFactory}. State at the end of TP 06: the only
- * change since TP 05 is the list of managed classes.
- */
 public final class Jpa {
 
     // Built on first access; a mapping error surfaces as ExceptionInInitializerError.
