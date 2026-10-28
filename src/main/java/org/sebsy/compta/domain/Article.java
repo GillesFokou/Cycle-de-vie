@@ -95,7 +95,7 @@ public class Article {
     /**
      * Refuses a negative price and keeps the column's scale, so that the object holds what the
      * database will store. Dirty checking does not need it: Hibernate compares BigDecimal
-     * values with compareTo, 74.99 and 74.990 are the same value to it (TP 07).
+     * values with compareTo, 74.99 and 74.990 are the same value to it.
      */
     public void setPrix(BigDecimal prix) {
         Objects.requireNonNull(prix, "prix is mandatory");
