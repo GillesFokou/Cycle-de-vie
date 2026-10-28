@@ -6,11 +6,6 @@ import org.sebsy.compta.domain.Fournisseur;
 import org.sebsy.compta.infra.Jpa;
 import java.math.BigDecimal;
 
-/**
- * TP 08, questions 11 and 12: who refuses to delete a supplier, Hibernate or MariaDB, and what
- * cascade = ALL on Fournisseur.articles changes. Run it without the cascade, then with it.
- * Whatever happens, the test supplier and its articles are gone at the end.
- */
 public final class SuppressionFournisseur {
 
     public static void main(String[] args) {
