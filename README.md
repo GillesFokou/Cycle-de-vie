@@ -1,9 +1,7 @@
 # Projet de départ TP — demo-data-access
 
-L'état du projet à la fin du TP 08 : les relations `fournisseur` ↔ `article` sont mappées, mais
-`FournisseurDaoJpa` n'existe pas encore. C'est elle que le TP 07 vous demande d'écrire. Partez de
-ce dossier si votre projet n'est pas terminé ou ne compile pas : tout le monde commence
-l'évaluation au même point.
+L'état du projet à la fin du TP suivant : les relations `fournisseur` ↔ `article` sont mappées, mais
+`FournisseurDaoJpa` n'existe pas encore. C'est elle que le TP  vous demande d'écrire.
 
 ## Contenu
 
@@ -14,7 +12,7 @@ l'évaluation au même point.
 | `dao`      | `FournisseurDao`, `ArticleDao`, `PersistenceFailure`                                      |
 | `dao.jdbc` | `Tx`, `FournisseurDaoJdbc`, `ArticleDaoJdbc`, `BonDaoJdbc`                                |
 | `app`      | les programmes d'essai des TP 01 à 08, dont `EssaiFournisseurs`, encore branché sur `FournisseurDaoJdbc` |
-| tests      | `IdentiteTest` (TP 06) et `RelationsTest`                                          |
+| tests      | `IdentiteTest` (TP précèdent) et `RelationsTest`                                          |
 
 Les deux relations sont en `LAZY`, et `Fournisseur.articles` n'a pas de `cascade`. C'est l'état
 attendu à la fin de la question 13 du TP suivant.
@@ -25,11 +23,8 @@ attendu à la fin de la question 13 du TP suivant.
    sources. Gardez votre `NOTES.md`.
 2. `mvn -q test-compile` passe.
 3. Base démarrée (`env/`, `docker compose up -d`). Depuis un terminal (bash, WSL, Git Bash) :
-   ```bash
-   DB_URL='jdbc:mariadb://localhost:3306/compta?useServerPrepStmts=true&connectionTimeZone=SERVER' DB_USER=app DB_PASSWORD=app mvn test
-   ```
    Les tests passent au vert, et la base garde ses 4 fournisseurs et 12 articles.
 4. Un commit : « Reprendre le projet de départ du TP».
 
-Suivez ensuite l'énoncé du TP 07 à partir de l'étape 1. Là où il parle de « votre projet à la fin
+Suivez ensuite l'énoncé du TP  à partir de l'étape 1. Là où il parle de « votre projet à la fin
 du TP précèdent », lisez « ce projet ».
