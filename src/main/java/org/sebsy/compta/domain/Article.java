@@ -15,7 +15,6 @@ import java.math.RoundingMode;
 import java.util.Objects;
 
 /**
- * A catalogue item, mapped on {@code article}. State at the end of TP 08.
  *
  * <p>{@code id_fou} is now mapped as a reference to the supplier. {@code version} stays unmapped
  * until TP 13: VALIDATE only checks what is mapped, and the column has a default.
