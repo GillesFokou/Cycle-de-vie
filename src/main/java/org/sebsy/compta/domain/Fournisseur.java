@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * A supplier, mapped on the existing {@code fournisseur} table. State at the end of TP 08.
  *
  * <p>The JDBC layer still uses this class: the annotations add a mapping, they remove nothing.
  * The two choices made in TP 02 (non-final class with a protected no-argument constructor,
