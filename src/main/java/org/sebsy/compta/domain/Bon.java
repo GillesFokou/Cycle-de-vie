@@ -15,9 +15,8 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 /**
- * A purchase order header, mapped on {@code bon}. State at the end of TP 08.
  *
- * <p>The supplier is mapped; the lines ({@code compo}) arrive in TP 09. No collection of orders
+ * <p>The supplier is mapped; the lines ({@code compo}) arrive in TP next. No collection of orders
  * on Fournisseur: nothing in the application navigates in that direction yet.
  */
 @Entity
