@@ -4,10 +4,6 @@ import org.sebsy.compta.domain.Article;
 import org.sebsy.compta.infra.Jpa;
 import jakarta.persistence.EntityManagerFactory;
 
-/**
- * TP 08, questions 3 and 4: what a to-one association costs, and what LAZY hands back.
- * Run it once as is, then once with the fetch attribute removed from Article.fournisseur.
- */
 public final class MesureChargement {
 
     public static void main(String[] args) {
