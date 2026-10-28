@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * TP 08, questions 4 and 8 to 10. Runs against compta (DB_URL, DB_USER, DB_PASSWORD); the only
+ * questions 4 and 8 to 10. Runs against compta (DB_URL, DB_USER, DB_PASSWORD); the only
  * row a test creates is the article of {@link #lesDeuxCotes_larticleEstInsere}, deleted after.
  */
 class RelationsTest {
