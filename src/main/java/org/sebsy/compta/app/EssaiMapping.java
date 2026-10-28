@@ -5,7 +5,6 @@ import org.sebsy.compta.domain.Bon;
 import org.sebsy.compta.infra.Jpa;
 import java.math.BigDecimal;
 
-/** TP 06, questions 4, 6 and 9: reads through the new mappings, then tries one INSERT. */
 public final class EssaiMapping {
 
     public static void main(String[] args) {
