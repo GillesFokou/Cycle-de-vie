@@ -3,7 +3,6 @@ package org.sebsy.compta.app;
 import org.sebsy.compta.domain.Fournisseur;
 import org.sebsy.compta.infra.Jpa;
 
-/** TP 05, questions 1 to 6: starts the persistence unit and reads one supplier through it. */
 public final class DemarrageJpa {
 
     public static void main(String[] args) {
