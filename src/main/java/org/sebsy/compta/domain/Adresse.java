@@ -4,7 +4,6 @@ import jakarta.persistence.Embeddable;
 import java.util.Objects;
 
 /**
- * A supplier's postal address: a value, not an entity. State at the end of TP 05.
  *
  * <p>No identity and no table of its own: its three components are columns of
  * {@code fournisseur}. Jakarta Persistence 3.2 accepts a record as an embeddable, and a record
