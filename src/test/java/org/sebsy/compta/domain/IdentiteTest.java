@@ -20,10 +20,6 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.function.Consumer;
 
-/**
- * TP 06, questions 11 and 12. Runs against the compta database (DB_URL, DB_USER, DB_PASSWORD);
- * every write is rolled back.
- */
 class IdentiteTest {
 
     /** The IDE-generated identity: equals/hashCode on the generated id. Test-only mapping. */
